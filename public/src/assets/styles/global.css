@@ -41,9 +41,9 @@
       justify-content: center;
   }
 
-  body, input , button, textarea, h2 {
+  body, input , button, textarea {
       font: 500 1.6rem Poppins;
-      color: var(--color-text-in-primary)
+      color: var( --color-text-base)
   }
 
   .container {
