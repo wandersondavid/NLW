@@ -34,9 +34,10 @@
      display: flex;
      justify-content: center;
      margin: 3.2rem 0;
+     align-items: center;
 }
 
-.button-container a{
+.button-container a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,6 +131,7 @@
 
     .button-container a {
        font-size: 2.4rem;
+       width: 20rem;
     }
 
     .total-connections {
@@ -137,3 +139,30 @@
         justify-self: end;
     }
 }
+
+@media (max-width: 410px){
+    .button-container a {
+        width: 16rem;
+        height: 5.4rem;
+    }
+    .button-container a img {
+        width: 3rem
+    }
+}
+
+@media (max-width: 330px){
+    .button-container a {
+        width: 15rem;
+        height: 5.1rem;
+    }
+    .button-container a img {
+        width: 3rem
+    }
+    .logo-conteiner img {
+        width: 97%;
+    }
+    .hero-image {
+        width: 97%;
+    }
+}
+

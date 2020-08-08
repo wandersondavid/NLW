@@ -1,6 +1,7 @@
 #page-teacher-list {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 #search-teachers {
