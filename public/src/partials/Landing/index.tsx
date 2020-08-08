@@ -34,7 +34,7 @@ function Landing() {
                     Total de 200 conexão já realizadas
                     <img src={purpleHeartIcon} alt="Coração roxo"/>
                 </span>
-             </div>
+            </div>
          </div>
      )
 }
