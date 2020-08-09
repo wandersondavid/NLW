@@ -1,8 +1,8 @@
 const { app, BrowserWindow} = require('electron')
 
 function creationWindow() {
-     const  win = new BrowserWindow({ width: 800, height: 600 })
-    win.loadURL('http://localhost:3000');
+     const  win = new BrowserWindow({ width: 1099, height: 900 })
+    win.loadURL('http://localhost:4000');
 }
 
 app.on('ready', creationWindow)
