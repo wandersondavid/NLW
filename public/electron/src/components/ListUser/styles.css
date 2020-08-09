@@ -79,6 +79,18 @@
     background: var(--color-secundary-dark);
   }
 
+
+  .content-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .content-info div {
+    display: flex;
+    flex-direction:  column;
+  }
+
   @media (min-width: 700px){
     .teacher-item header, 
     .teacher-item footer {

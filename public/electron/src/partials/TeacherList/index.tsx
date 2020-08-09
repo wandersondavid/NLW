@@ -1,17 +1,24 @@
 import React, { useState, useEffect } from 'react';
 
 import PageHeader from '../../components/PageHeader';
-import TeacherItem from '../../components/TeacherItem';
+import ListUser from '../../components/ListUser';
+
 
 
 import './styles.css'
 import api from '../../core/api/api';
 
+interface IUser {
+    img:string;
+    name: string;
+    telefone: string;
+    observacoes?: string;
+}
 
 
 function TeacherList() {
-    const [getusers, setUsers] = useState();
-    
+    const [getusers, setUsers] = useState([]);
+
     useEffect(()=>{
         api.get('users').then(response =>{
             const user = response.data.users
@@ -19,7 +26,8 @@ function TeacherList() {
             setUsers(user)
         })
     }, [])
-    // console.log("1111111111111111",getusers.map(item =>))
+
+
     return (
         <div id="page-teacher-list" className="container">
             <PageHeader title="Estes são os proffys disponiveis.">
@@ -42,15 +50,9 @@ function TeacherList() {
             </PageHeader>
 
             <main>
-                <span>{
-                    // users.map((item, index) => {})
-                    }</span>
-               <TeacherItem />
-               <TeacherItem />
-               <TeacherItem />
-               <TeacherItem />
-               <TeacherItem />
-               <TeacherItem />
+                {getusers.map((user:IUser, index) =>{
+                    return <ListUser key={index} img={user.img} name={user.name} telefone={user.telefone} observacoes={user.observacoes} />
+                })}
             </main>
         </div>
     )
