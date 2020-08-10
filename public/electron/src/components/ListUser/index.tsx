@@ -30,12 +30,12 @@ const ListUser: React.FunctionComponent<InfoUsersProps> = (props) => {
                         <span>{props.observacoes}</span>
                     </div>
                 </div>
-            <footer>
+            {/* <footer>
                 <button>
                         <img src={whatsappIcon} alt="Whatsapp"/>
                         Entar em contato
                 </button>
-            </footer>
+            </footer> */}
         </article>
     )
 }

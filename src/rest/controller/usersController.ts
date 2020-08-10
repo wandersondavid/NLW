@@ -13,27 +13,27 @@ export const GetAllUser = {
             {
                 "img":"https://avatars3.githubusercontent.com/u/35749537?s=460&u=48c4a235c95b849dbcf4c9169d2fa2ca8f20279a&v=4",
                 "name": "wanderson",
-                "idade": "22",
-                "observacoes": "testeste"
+                "telefone": "22",
+                "observacoes": "testcvbvbcbvcbcveste"
             },
             {
                 "img":"https://avatars3.githubusercontent.com/u/35749537?s=460&u=48c4a235c95b849dbcf4c9169d2fa2ca8f20279a&v=4",
                 "name": "Maria",
-                "idade": "52",
-                "observacoes": "testessssssste"
+                "telefone": "52",
+                "observacoes": "tescvbvbtessssssste"
             },
             {
                 "img":"https://avatars3.githubusercontent.com/u/35749537?s=460&u=48c4a235c95b849dbcf4c9169d2fa2ca8f20279a&v=4",
                 "name": "Renner Lobinho",
-                "idade": "18",
-                "observacoes": "testssssssssseste"
+                "telefone": "18",
+                "observacoes": "testssssbvcbvnssssseste"
             }
             ,
             {
                 "img":"https://avatars3.githubusercontent.com/u/35749537?s=460&u=48c4a235c95b849dbcf4c9169d2fa2ca8f20279a&v=4",
                 "name": "Renner Lobissssnho",
-                "idade": "18",
-                "observacoes": "testssssssseste"
+                "telefone": "18",
+                "observacoes": "testssssssbcvbcvseste"
             }
         ]
 

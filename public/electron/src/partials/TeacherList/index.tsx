@@ -33,11 +33,11 @@ function TeacherList() {
             <PageHeader title="Estes são os proffys disponiveis.">
                 <form id="search-teachers">
                     <div className="input-block">
-                        <label htmlFor="subject">Matéria</label>
+                        <label htmlFor="subject">Buscar</label>
                         <input type="text" id="subject"/>
                     </div>
 
-                    <div className="input-block">
+                    {/* <div className="input-block">
                         <label htmlFor="weel_day">Dia da semana</label>
                         <input type="text" id="weel_day"/>
                     </div>
@@ -45,7 +45,7 @@ function TeacherList() {
                     <div className="input-block">
                         <label htmlFor="time">Hora</label>
                         <input type="text" id="time"/>
-                    </div>
+                    </div> */}
                 </form>
             </PageHeader>
 

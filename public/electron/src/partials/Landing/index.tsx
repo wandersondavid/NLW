@@ -21,13 +21,14 @@ function Landing() {
                  <img src={landingImg} alt="Plataforma de estudo" className="hero-image"/>
 
                  <div className="button-container">
-                     <Link to="/study" className="study">
-                        <img src={studyIcon} alt="Cadastrar"/>
-                        Cadastrar
-                     </Link>
                      <Link to="/give-classes" className="give-classes">
                         <img src={giveClassIcon} alt="listar"/>
-                        listar
+                        Cadastrar
+                     </Link>
+
+                     <Link to="/study" className="study">
+                        <img src={studyIcon} alt="Cadastrar"/>
+                        Lista
                      </Link>
                 </div>
                 <span className="total-connections">
