@@ -15,7 +15,7 @@ app.use(urlencoded({ extended: false, limit: '50mb' }));
 app.use(cookieParser());
 app.use(compression());
 
-app.use('/electron/', router);
+app.use('/nlw/', router);
 
 const port = 9999;
 app.listen(port, () => {
