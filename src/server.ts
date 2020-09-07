@@ -17,10 +17,11 @@ app.use(compression());
 
 app.use('/nlw/', router);
 
-const port = 9999;
-app.listen(port, () => {
-    console.log("server -------------- INIT -------------------");
-    console.log(`server Listening on port ${port}`);
-})
+// const port = 9999;
+// app.listen(port, () => {
+//     console.log("server -------------- INIT -------------------");
+//     console.log(`server Listening on port ${port}`);
+// })
+app.listen(process.env.PORT || 9999)
 
 export default app;
